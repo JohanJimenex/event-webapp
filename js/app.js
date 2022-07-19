@@ -4,8 +4,8 @@ const urlBase = "https://goldfish-app-oewvc.ondigitalocean.app/api/v1";
 
 let arrEventos = [1];
 
-// esta función se autollama ella misma.
-(async function obtenerTodosLosEventos() {
+// esta función es anonima sin nombre tipo flecha, se autollama ella misma.
+(async () => {
 
     let request = await fetch(urlBase + "/events");
     let response = await request.json();
