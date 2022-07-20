@@ -15,3 +15,7 @@ a{
 .bg-primary {
     background-color: #FF598A !important;
 }
+
+.bg-gray{
+    background-color: #E5E3E4;
+}
