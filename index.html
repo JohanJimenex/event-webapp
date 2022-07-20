@@ -11,7 +11,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
 
-  <link rel="stylesheet" href="./css/style.css">
+  <!-- Animaciones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- Animacion de ecualizador -->
+  <link rel="stylesheet" href="./css/equalizador.css">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <!-- <link rel="stylesheet" href="./css/style.css"> -->
+  <link rel="stylesheet" href="./css/estilos.css">
 
   <script defer src="./js/app.js"></script>
 
@@ -19,41 +30,52 @@
 </head>
 
 <body>
+  <!-- ecualizador -->
+  <div class="spectrograph">
+    <div class="spectrograph__bar"></div>
+    <div class="spectrograph__bar"></div>
+    <div class="spectrograph__bar"></div>
+    <div class="spectrograph__bar"></div>
+    <div class="spectrograph__bar"></div>
+    <div class="spectrograph__bar"></div>
+    <div class="spectrograph__bar"></div>
+    <div class="spectrograph__bar"></div>
+    <div class="spectrograph__bar"></div>
+    <div class="spectrograph__bar"></div>
+    <div class="spectrograph__bar"></div>
+    <div class="spectrograph__bar"></div>
+    <div class="spectrograph__bar"></div>
+    <div class="spectrograph__bar"></div>
+    <div class="spectrograph__bar"></div>
+    <div class="spectrograph__bar"></div>
+    <div class="spectrograph__bar"></div>
+    <div class="spectrograph__bar"></div>
+    <div class="spectrograph__bar"></div>
+    <div class="spectrograph__bar"></div>
+  </div>
 
-  <div class="container">
+  <nav class="navbar navbar-dark bg-primary px-5">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <!-- <img src="" alt="" width="30" height="24" class="d-inline-block align-text-top"> -->
+        Hey! Tickets
+      </a>
+      <a href="" class="text-white">
+        INICIAR SESIÓN
+      </a>
+    </div>
+  </nav>
 
-    <nav class="nav-bar">
-      <img class="img-nav" src="./img/logo.svg" alt="img de ticket miniatura">
-      <a href="#">INICIAR SESIÓN</a>
-    </nav>
+
+  <div class="container mt-5">
 
     <header>
-      <h2>Eventos Disponible:</h2>
+      <h1 class="text-center mb-5 animate__animated animate__tada">Eventos Disponible:</h1>
     </header>
 
-    <main class="container-cards" id="container-cards">
+    <main class="container d-flex ">
 
-      <div class="card">
-
-        <img src="./img/Best-electric-cars-header-2022_zkdwwp.webp" alt="evento de RIKI">
-
-        <h3>Carros del mañana llegaron </h3>
-        <p class="texto-card">Descripcion del evento Descripcion del evento Descripcion del evento.</p>
-
-        <p class="fecha">FECHA: 31-07-2022</p>
-        <a href="#" class="btn-adquirir">ADQUIRIR</a>
-
-      </div>
-
-      <div class="card">
-
-        <img src="./img/riki2022.jpg" alt="evento de RIKI">
-
-        <h3>nombre del evento </h3>
-        <p class="texto-card">Descripcion del evento Descripcion del evento Descripcion del evento.</p>
-
-        <p class="fecha">FECHA: 31-07-2022</p>
-        <a href="#" class="btn-adquirir">ADQUIRIR</a>
+      <div class="row" id="col-container-cards">
 
       </div>
 
