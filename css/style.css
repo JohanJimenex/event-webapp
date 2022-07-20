@@ -5,7 +5,7 @@ primary color >  #FF588A;
 */
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +13,7 @@ primary color >  #FF588A;
 }
 
 
-body{
+body {
     background-color: #FFF;
     font-family: 'Roboto', sans-serif;
     width: 100%;
@@ -28,25 +28,22 @@ body{
     background-color: #FFF;
     width: 100%;
     height: 100%;
-    
-
-
 } */
 
 
-.nav-bar{
+.nav-bar {
     background-color: #FF588A;
     display: flex;
     justify-content: space-around;
     padding: 15px;
-    
+
 }
 
-.nav-bar a{
+.nav-bar a {
     text-decoration: none;
-    color:#FFF;
+    color: #FFF;
 }
-    
+
 /* 
 .img-nav{ 
      width: 9rem;  
@@ -54,101 +51,102 @@ body{
 
 } */
 
-h2{
-  
+h2 {
+
     display: block;
     padding: 50px 270px;
     font-weight: 700;
     font-size: 35px;
-    text-align:center;
+    text-align: center;
 }
 
 
-h3{
-    color:  #505050;
+h3 {
+    color: #505050;
     margin: 5px 0 15px;
 }
 
 
-.texto-card{
+.texto-card {
 
     font-size: 15px;
-    line-height:20px;
+    line-height: 20px;
     font-weight: 400;
     color: #000;
-    
+
     word-wrap: break-all;
 }
 
-.fecha{
-   
-  font-size:14px;
+.fecha {
+
+    font-size: 14px;
 }
+
 /* seccion de las card de eventos */
 
-.container-cards{
-    width:100%;
+.container-cards {
+    width: 100%;
     max-width: 1200%;
-    height:430px;
+    height: 430px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    
+
 }
 
-.container .card{
+.container .card {
     width: 330px;
     height: 430px;
     border-radius: 8px;
     box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.25);
     border-radius: 3px;
     overflow: hidden;
-    margin:20px;
-    text-align:center;
+    margin: 20px;
+    text-align: center;
 }
 
-.container .card img{
+.container .card img {
     width: 330px;
     height: 220px;
 }
 
 
 .btn-adquirir {
-	background-color:#ff588a;
-	display:inline-block;
-	cursor:pointer;
-	color:#f5edf0;
-	font-family:Arial;
-	font-size:15px;
-	padding:8px 5px;
+    background-color: #ff588a;
+    display: inline-block;
+    cursor: pointer;
+    color: #f5edf0;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 8px 5px;
     margin-top: 80px;
-	text-decoration:none;
+    text-decoration: none;
     border-radius: 3px;
-    
-    
-	/* text-shadow:0px 1px 0px #f0f0f0; */
+
+
+    /* text-shadow:0px 1px 0px #f0f0f0; */
 
 
 
 }
 
 .btn-adquirir:hover {
-	opacity: 75%;
+    opacity: 75%;
 }
 
 .btn-adquirir:active {
-	position:relative;
-	top:1px;
+    position: relative;
+    top: 1px;
 }
 
-.fecha{
-    display:flex;
+.fecha {
+    display: flex;
     justify-content: space-between;
     margin: 10px;
-    font-size:12px;
-    color:#7B7B7B;
-	display:inline-block;
+    font-size: 12px;
+    color: #7B7B7B;
+    display: inline-block;
     margin-right: 90px;
 
 }
