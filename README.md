@@ -1,2 +1,2 @@
-# event-webapp
-Repositorio creado para el vento de @Programación.es
+# Link d ela página:
+https://johanjimenex.github.io/event-webapp-frontend/pages/register.html
