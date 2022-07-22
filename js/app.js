@@ -15,8 +15,8 @@ let arrEventos = [];
     for (let event of arrEventos) {
 
         container.innerHTML += `
-            <div class="col col-md-3 mb-3 animate__animated animate__backInUp d-flex justify-content-center" >
-                <div class="card" style="width: 18rem;">
+            <div class="col col-md-3 mb-3 animate__animated animate__backInUp d-flex justify-content-center " >
+                <div class="card shadow" style="width: 18rem; ">
                     <img src="${event.image_url}" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title text-center">${event.name}</h5>

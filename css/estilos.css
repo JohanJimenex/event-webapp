@@ -19,3 +19,33 @@ a{
 .bg-gray{
     background-color: #E5E3E4;
 }
+b{
+    color:#FF598A;
+    margin-top: auto;
+    font-size: 25px;
+}
+
+.navbar{
+    background-color: white !important;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.199);
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.452);
+}
+
+.change {
+    color: #FF598A !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mayor {
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.199);
+}
+
+.shadow {
+    box-shadow: 100px 50px 50px rgba(0, 0, 0, 0.199);
+}
+
+.mar{
+    margin-top: 20px;
+}
