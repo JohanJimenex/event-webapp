@@ -20,6 +20,35 @@ a{
     background-color: #E5E3E4;
 }
 
-.separar {
-    
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+b{
+    color:#FF598A;
+    margin-top: auto;
+    font-size: 25px;
+}
+
+.navbar{
+    background-color: white !important;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.199);
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.452);
+}
+
+.change {
+    color: #FF598A !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mayor {
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.199);
+}
+
+.mar {
+    margin-top: 20px;
 }
